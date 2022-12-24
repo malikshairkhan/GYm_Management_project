@@ -1,0 +1,88 @@
+{% extends 'navigationbar.html' %}
+{% load static %}
+{% block body %}
+
+
+
+    <!--container-->
+    <div class="container my-4" style="margin-top:60px">
+    <h2 class="text-center text-primary font-weight-bold">Contact Us</h2>
+      <br><br>
+      <div
+        class="row featurette d-flex justify-content-center align-items-center">
+        <div class="col-md-7 order-md-2">
+          <h2 class="fw-normal lh-3">
+            For any enquiry please mail us
+            <br>
+            <h4 class="text-muted">malikshairkhan.2014@gmail.com</h4>
+          </h2>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img
+            class="img-fluid"
+            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+            width="500"
+            height="700"
+            src="{% static 'images/gym.jpg' %}"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div
+        class="row featurette d-flex justify-content-center align-items-center">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">
+            For quick Resposnce please call us at
+            <h4 class="text-muted"> Tel:03068801315</h4>
+          </h2>
+        </div>
+        <div class="col-md-5">
+          <img
+            class="img-fluid"
+            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+            width="1100"
+            height="900"
+            src="{% static 'images/gym2.jpg' %}"
+            alt=""
+          />
+          <br><br>
+        </div>
+      </div>
+
+      <div
+        class="row featurette d-flex justify-content-center align-items-center"
+      >
+        <div class="order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1">
+            To visit our gym and Office
+            <h4 class="text-muted">UOk AJ&K.</h4>
+          </h2>
+        </div>
+        <div class="col-md-5">
+          <img
+         class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+            width="1000"
+            height="500"
+            src="{% static 'images/gym5.jpg' %}" class="d-block w-100"/>
+        </div>
+      </div>
+    </div>
+    <!--container-->
+     <!--footer-->
+     <footer class="d-flex flex-wrap justify-content-between align-items-center py-5 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-muted">© 2022 Uok, Inc</span>
+      </div>
+
+    </footer>
+
+    <!--footer-->
+
+  </body>
+</html>
+
+{% endblock %}

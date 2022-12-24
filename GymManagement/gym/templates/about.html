@@ -1,0 +1,25 @@
+{% extends 'navigationbar.html' %}
+{% load static %}
+{% block body %}
+
+<div class="container" style="margin-top:60px">
+<h2 class="text-center text-primary font-weight-bold">About us</h2>
+    <br><br>
+    <div class="row">
+    <div class="col-sm-4 text-center">
+        <img
+          class="img-fluid img-thumbnail"
+            src="{% static 'images/gym5.jpg' %}"  class="img-responsive"/>
+      </div>
+         <div class="col-sm-8 text-center mt-5">
+             Hello Friends<br>
+             This is simple Gym Management Project developed by Malik Shair khan using
+             python django , html , css , javascript and bootstrap.
+      </div>
+    </div>
+</div>
+<footer class="text-center font-weight-bold mt-4">
+    <h2>copyright &copy; 2022 , All Rights Reserved</h2>
+</footer>
+
+{% endblock %}
